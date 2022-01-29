@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.1066.0"
+  },
+  "name": "lambda-execution",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node -e \"(async ()=>console.log(await require('./index').handler({'num1':'1',num2:'19'})))();\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
